@@ -108,7 +108,6 @@
 
 .party-banner {
     height: 550px;
-    border: 1px solid yellowgreen;
     border-radius: 10px;
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
      url("../images/Vectorrr.png");
@@ -198,11 +197,105 @@
     margin: 15px 0;
 }
 
-
-
-
-
-
 /* address section style end */
+
+/* best offer section style start */
+
+.best-offer {
+    height: 450px;
+    margin-top: 100px;
+}
+
+.best-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.best-offer-text, 
+.img-container,
+.happy-2024 {
+    width: 33%;
+}
+
+.best-offer-text .offer-subtitle {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.best-offer-text .offer-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-offer-text .offer-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.best-offer .img-container img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 10px solid red;
+}
+
+.happy-2024 {
+    margin-left: 130px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.happy-2024 .happy-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.happy-2024 img {
+    margin-top: 20px;
+}
+
+
+
+/* best offer section style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
