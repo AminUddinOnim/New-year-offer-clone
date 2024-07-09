@@ -52,6 +52,58 @@
     color: white;
 }
 
+/* categories section styles start */
+
+.categories {
+    height: 600px;
+    margin: 100px auto;
+}
+
+.categories .categories-text-container {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.categories .categories-text-container .categories-discount {
+    color: rgb(255, 0, 0);
+    font-family: "Inter",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.categories .categories-text-container .categories-description {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.categories .categories-text-container .categories-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.categories .categories-text-container img {
+    width: 600px;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
+/* categories section styles end */
 
 
 
