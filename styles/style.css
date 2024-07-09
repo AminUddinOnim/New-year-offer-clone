@@ -115,6 +115,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
+    margin-bottom: 100px;
 }
 
 .party-container {
@@ -159,10 +160,49 @@
     outline: none;
     cursor: pointer;
 }
-
-
 /* party banner section style end */
 
+/* address section style start */
 
+.address {
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.address-text-container {
+    margin-top: 100px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.address-text-container button {
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+/* address section style end */
 
 
