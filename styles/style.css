@@ -275,17 +275,137 @@
     margin-top: 10px;
 }
 
-
 .happy-2024 img {
     margin-top: 20px;
 }
 
-
-
 /* best offer section style end */
 
 
+/* holiday section style start */
 
+.holiday {
+    height: 600px;
+    border: 1px solid yellowgreen;
+    margin-top: 100px;
+    background: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100% 30%;
+    position: relative;
+}
+
+.holiday .holiday-text {
+    width: 600px;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holiday-text .holiday-subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.holiday-text .holiday-title {
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.holiday-text .holiday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.holiday .holiday-images {
+    display: flex;
+    justify-content: center;
+}
+
+.holiday-images .box{
+    width: 35%;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 620px;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgb(255, 255, 255), rgb(255, 255, 255) 100%);
+    background-blend-mode: multiply;
+}
+
+.holiday-images .fifty {
+    width: 20%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 900px;
+}
+
+/* holiday section style end */
+
+/* best-gifts section style start */
+
+.best-gifts {
+    /* height: 600px; */
+    margin-top: 100px;
+}
+
+.best-gifts .gifts-subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.best-gifts .gifts-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-gifts .gifts-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-gifts .gifts-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.best-gifts .gifts-images img {
+    width: 370px;
+   height: 450px;
+}
+
+/* best-gifts section style end */
 
 
 
